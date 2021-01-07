@@ -11,6 +11,7 @@ h1{
 }
 .half-width{
     width: 40%;
+    height: 50px;
     float: left;
     margin-left: 5%;
     padding: 2%;}
@@ -26,8 +27,9 @@ h1{
 }
 
 section{
+    width: 100%;
     height: 500px;
-    margin-bottom: 200px;
+    margin-bottom: 400px;
 }
 .link-button{
     text-decoration: none;
@@ -43,19 +45,40 @@ section{
 }
 
 .box{
-    width: 15%;
+    width: 25%;
     float: left;
-    margin: 2%;
-    padding: 2%;
-    height: 50pxs;
+    margin: 3%;
+    padding: 1%;
+    height: 40pxs;
     
    
 }
 .exp{
-    border:10px 10px rgb(158, 30, 30);
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 5%;
+    
+    
+}
+img{
+    width: 100%;
 }
 
 }
-.Experience{
-    background-color: rgb(240, 121, 121) ;
+.background{
+    background-color: rgb(10, 103, 131);
+}
+.workpart{
+    width: 70%;
+    background-image: url(images/tt.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    
+}
+.
+.last-button{
+    float: right;
+}
+.lastpart{
+    float: left;
 }
